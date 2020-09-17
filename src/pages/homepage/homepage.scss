@@ -1,0 +1,311 @@
+.section1 {
+  height: 100vh;
+  background: url(./hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-text {
+  h1 {
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  p {
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 2;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  .button1 {
+    text-align: center;
+
+    a {
+      border: #005440 2px solid;
+      padding: 10px;
+      background: #005440;
+      color: white;
+      text-decoration: none;
+      margin-top: 50px;
+      display: inline-block;
+      box-shadow: 0px 5.83399px 21.8774px rgba(6, 140, 109, 0.12);
+      border-radius: 5px;
+
+      &:hover {
+        background: #222327;
+        transition: 0.5s ease-in-out;
+        border: #222327 2px solid;
+      }
+    }
+  }
+}
+
+.topic {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.section2 {
+  background: url(/images/Rectangle.png);
+  margin-top: -120px;
+
+  .container {
+    margin-left: 8%;
+    margin-right: 10%;
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+
+    .card1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 0px 5.83399px 21.8774px rgba(114, 113, 113, 0.12);
+      border-radius: 20px;
+      padding: 10px;
+      margin-right: 20px;
+      cursor: default;
+
+      &:hover {
+        background: #64bcae;
+        transition: 0.5s ease-in-out;
+
+        h3 {
+          color: white;
+        }
+        p {
+          color: white;
+        }
+      }
+      img {
+        margin-top: 25px;
+        width: 40%;
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+    .card2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 0px 5.83399px 21.8774px rgba(114, 113, 113, 0.12);
+      border-radius: 20px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-right: 20px;
+      cursor: default;
+      h3 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 25px;
+      }
+      &:hover {
+        background: #64bcae;
+        transition: 0.5s ease-in-out;
+
+        h3 {
+          color: white;
+          text-align: center;
+        }
+        p {
+          color: white;
+        }
+      }
+
+      img {
+        width: 55%;
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+    .card3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 0px 5.83399px 21.8774px rgba(114, 113, 113, 0.12);
+      border-radius: 20px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-right: 20px;
+      cursor: default;
+      h3 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 25px;
+      }
+
+      &:hover {
+        background: #64bcae;
+        transition: 0.5s ease-in-out;
+
+        h3 {
+          color: white;
+        }
+        p {
+          color: white;
+        }
+      }
+
+      img {
+        width: 55%;
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: center;
+        margin-top: 10px;
+        width: 90%;
+      }
+    }
+    .card4 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 0px 5.83399px 21.8774px rgba(114, 113, 113, 0.12);
+      border-radius: 20px;
+      padding: 20px;
+      cursor: default;
+      h3 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 25px;
+      }
+
+      &:hover {
+        background: #64bcae;
+        transition: 0.5s ease-in-out;
+
+        h3 {
+          color: white;
+        }
+        p {
+          color: white;
+        }
+      }
+
+      img {
+        width: 50%;
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: center;
+        margin-top: 10px;
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .section1 {
+    width: 100%;
+    height: 100vh;
+    background: url(./hero.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero-text {
+    width: 100%;
+
+    h1 {
+      padding-top: 150px;
+      color: white;
+      text-align: center;
+      text-transform: capitalize;
+      letter-spacing: 2px;
+      font-size: 30px;
+      font-weight: bolder;
+    }
+
+    p {
+      color: white;
+      margin-top: 25px;
+      letter-spacing: 1px;
+      line-height: 2;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+      font-size: 14px;
+    }
+    .button1 {
+      text-align: center;
+
+      a {
+        border: #005440 2px solid;
+        padding: 10px;
+        background: #005440;
+        color: white;
+        text-decoration: none;
+        margin-top: 50px;
+        display: inline-block;
+        box-shadow: 0px 5.83399px 21.8774px rgba(6, 140, 109, 0.12);
+        border-radius: 5px;
+
+        &:hover {
+          background: #222327;
+          transition: 0.5s ease-in-out;
+          border: #222327 2px solid;
+        }
+      }
+    }
+  }
+  .section2 {
+    background: url(/images/Rectangle.png);
+    margin-top: -140px;
+
+    .container {
+      margin-left: 5%;
+      margin-right: 5%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+      padding-bottom: 100px;
+      justify-content: space-between;
+
+      .card1,
+      .card2,
+      .card3,
+      .card4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0px 5.83399px 21.8774px rgba(114, 113, 113, 0.12);
+        border-radius: 20px;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        cursor: default;
+      }
+    }
+  }
+  .topic {
+    padding-top: 100px;
+    text-align: center;
+  }
+}

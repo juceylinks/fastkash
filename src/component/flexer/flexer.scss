@@ -1,0 +1,25 @@
+.side-2 {
+  a {
+    color: green;
+    text-decoration: none;
+    margin-left: 30%;
+  }
+}
+.side-1 {
+  a {
+    color: green;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .side-1,
+  .side-2 {
+    text-align: center;
+    a {
+      color: green;
+      text-decoration: none;
+      margin-left: 0;
+      display: inline-block;
+    }
+  }
+}
