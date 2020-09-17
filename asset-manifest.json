@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fastkash/static/css/main.7b07d477.chunk.css",
+    "main.js": "/fastkash/static/js/main.a4829d5d.chunk.js",
+    "main.js.map": "/fastkash/static/js/main.a4829d5d.chunk.js.map",
+    "runtime-main.js": "/fastkash/static/js/runtime-main.90067d1d.js",
+    "runtime-main.js.map": "/fastkash/static/js/runtime-main.90067d1d.js.map",
+    "static/js/2.b83bdbc5.chunk.js": "/fastkash/static/js/2.b83bdbc5.chunk.js",
+    "static/js/2.b83bdbc5.chunk.js.map": "/fastkash/static/js/2.b83bdbc5.chunk.js.map",
+    "index.html": "/fastkash/index.html",
+    "precache-manifest.fe1653d1a218a75365d41a67f884efd1.js": "/fastkash/precache-manifest.fe1653d1a218a75365d41a67f884efd1.js",
+    "service-worker.js": "/fastkash/service-worker.js",
+    "static/css/main.7b07d477.chunk.css.map": "/fastkash/static/css/main.7b07d477.chunk.css.map",
+    "static/media/homepage.scss": "/fastkash/static/media/hero.2bd46125.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90067d1d.js",
+    "static/js/2.b83bdbc5.chunk.js",
+    "static/css/main.7b07d477.chunk.css",
+    "static/js/main.a4829d5d.chunk.js"
+  ]
+}
